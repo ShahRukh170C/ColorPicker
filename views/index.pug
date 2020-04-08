@@ -1,0 +1,54 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  title ColorXS
+  meta(name='description' content='')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(href='https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='css/main.css')
+  link(rel='stylesheet' href='css/color-Picker.css')
+header
+  h1  Got Render Page but CSS and images are not accessed.
+  h1.title_ME ColorXS
+  section.navBar
+    .logo
+      ul
+        li
+          a(href='')
+            h1
+              | ColorXS
+              h1
+    .navBar-Section
+      ul
+        li
+          a(href='') Home
+        li
+          a(href='') Pick Color
+        li
+          a(href='') Companies
+        li
+          a(href='') About Us
+    .navBar-right
+      ul
+        li Game
+.colorPicker
+  #clickMe.Colors(onclick='myFunction(1)' name='1' style='background-color: purple; ')
+    a(href='2')
+  #clickMe.Colors(onclick='myFunction()' name='2' style='background-color: pink;')
+    a(href='1')
+  #clickMe.Colors(onclick='myFunction()' name='3' style='background-color: darkorange;')
+    a(href='2')
+  #clickMe.Colors(onclick='myFunction()' name='4' style='background-color:indigo;')
+    a(href='4')
+  #clickMe.Colors(onclick='myFunction()' name='5' style='background-color:blue')
+    a(href='3')
+  #clickMe.Colors(onclick='myFunction()' name='6' style='background-color:orange')
+    a(href='5')
+  #clickMe.Colors(onclick='myFunction()' name='7' style='background-color: cyan')
+    a(href='6')
+  #clickMe.Colors(onclick='myFunction()' name='8' style='background-color: green ')
+    a(href='7')
+  #clickMe.Colors(onclick='myFunction()' name='8' style='background-color:teal')
+    a(href='8')
+script(src='index.js')
